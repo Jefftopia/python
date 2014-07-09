@@ -1,0 +1,798 @@
+<root>
+	<variables>
+		<var name="actcm25" precision="2" scale="None" type="d">
+			<label>ACT - Composite - 25th Percentile</label>
+			<definition>@school__year(actcm25)</definition>
+		</var>
+
+		<var name="actcm75" precision="2" scale="None" type="d">
+			<label>ACT - Composite - 75th Percentile</label>
+			<definition>@school__year(actcm75)</definition>
+		</var>
+
+		<var name="acten25" precision="2" scale="None" type="d">
+			<label>ACT - English - 25th Percentile</label>
+			<definition>@school__year(acten25)</definition>
+		</var>
+
+		<var name="acten75" precision="2" scale="None" type="d">
+			<label>ACT - English - 75th Percentile</label>
+			<definition>@school__year(acten75)</definition>
+		</var>
+
+		<var name="actmt25" precision="2" scale="None" type="d">
+			<label>ACT - Math - 25th Percentile</label>
+			<definition>@school__year(actmt25)</definition>
+		</var>
+
+		<var name="actmt75" precision="2" scale="None" type="d">
+			<label>ACT - Math - 7th Percentile</label>
+			<definition>@school__year(actmt75)</definition>
+		</var>
+
+		<var name="actpct" precision="2" scale="None" type="d">
+			<label>ACT - Students Who Submitted Scores (%)</label>
+			<definition>@school__year(actpct)</definition>
+		</var>
+
+		<var name="isgrouped" precision="2" scale="None" type="l">
+			<label>Belongs To Parent Institution And Does Not Report Financial Data Independently</label>
+			<definition>@school__year(isgrouped)</definition>
+		</var>
+
+		<var name="cpi_index" precision="2" scale="None" type="d">
+			<label>CPI</label>
+			<definition>@year(cpi_index)</definition>
+		</var>
+
+		<var name="cpi_conversion_2010" precision="2" scale="None" type="d">
+			<label>CPI - Deflator</label>
+			<definition>@year(cpi_conversion_2010)</definition>
+		</var>
+
+		<var name="eandr_completion" precision="2" scale="None" type="d">
+			<label>Cost - Per Completion of Education</label>
+			<definition>@school__year(eandr_completion)</definition>
+		</var>
+
+		<var name="eandr_degree" precision="2" scale="None" type="d">
+			<label>Cost - Per Degree</label>
+			<definition>@school__year(eandr_degree)</definition>
+		</var>
+
+		<var name="credhoursug" precision="2" scale="None" type="d">
+			<label>Credit Hour Activity for Undergraduate Programs</label>
+			<definition>@school__year(credhoursug)</definition>
+		</var>
+
+		<var name="grscohortpct" precision="2" scale="None" type="d">
+			<label>Current Year Graduation Rate Survey Cohort As Percentage of Incoming Class</label>
+			<definition>@school__year(grscohortpct)</definition>
+		</var>
+
+		<var name="bachelordegrees" precision="2" scale="None" type="d">
+			<label>Degrees Awarded - Bachelors</label>
+			<definition>@school__year(bachelordegrees)</definition>
+		</var>
+
+		<var name="doctordegrees" precision="2" scale="None" type="d">
+			<label>Degrees Awarded - Doctorates</label>
+			<definition>@school__year(doctordegrees)</definition>
+		</var>
+
+		<var name="masterdegrees" precision="2" scale="None" type="d">
+			<label>Degrees Awarded - Masters</label>
+			<definition>@school__year(masterdegrees)</definition>
+		</var>
+
+		<var name="totaldegrees_100fte" precision="2" scale="None" type="d">
+			<label>Degrees Awarded - Per 100 FTE Students</label>
+			<definition>@school__year(totaldegrees_100fte)</definition>
+		</var>
+
+		<var name="firstprofdegrees" precision="2" scale="None" type="d">
+			<label>Degrees Awarded - Professional </label>
+			<definition>@school__year(firstprofdegrees)</definition>
+		</var>
+
+		<var name="eandg03" precision="2" scale="None" type="d">
+			<label>Education and General Expenditures - Fringe Benefits for Employees</label>
+			<definition>@school__year(eandg03)</definition>
+		</var>
+
+		<var name="eandg02" precision="2" scale="None" type="d">
+			<label>Education and General Expenditures - Salaries and Wages</label>
+			<definition>@school__year(eandg02)</definition>
+		</var>
+
+		<var name="total_enrollment_asian_tot" precision="2" scale="Percent" type="d">
+			<label>Enrollment - Asian (%)</label>
+			<definition>@school__year(total_enrollment_asian_tot/total_enrollment)</definition>
+		</var>
+
+		<var name="total_enrollment_black_tot" precision="2" scale="Percent" type="d">
+			<label>Enrollment - Black (%)</label>
+			<definition>@school__year(total_enrollment_black_tot/total_enrollment)</definition>
+		</var>
+
+		<var name="fte_count" precision="2" scale="None" type="d">
+			<label>Enrollment - FTE</label>
+			<definition>@school__year(fte_count)</definition>
+		</var>
+
+		<var name="enrlt" precision="2" scale="None" type="d">
+			<label>Enrollment - First Year</label>
+			<definition>@school__year(enrlt)</definition>
+		</var>
+
+		<var name="total_enrollment_hisp_tot" precision="2" scale="Percent"
+			type="d">
+			<label>Enrollment - Hispanic (%)</label>
+			<definition>@school__year(total_enrollment_hisp_tot/total_enrollment)</definition>
+		</var>
+
+		<var name="total_enrollment_multi_tot" precision="2" scale="Percent"
+			type="d">
+			<label>Enrollment - Multi-Ethnic (%)</label>
+			<definition>@school__year(total_enrollment_multi_tot/total_enrollment)</definition>
+		</var>
+
+		<var name="total_enrollment_amin_tot" precision="2" scale="Percent"
+			type="d">
+			<label>Enrollment - Native American (%)</label>
+			<definition>@school__year(total_enrollment_amin_tot/total_enrollment)</definition>
+		</var>
+	
+		<var name="pt_ugentering" precision="2" scale="None" type="d">
+			<label>Enrollment - Part-Time Students</label>
+			<definition>@school__year(pt_ugentering)</definition>
+		</var>
+
+		<var name="total_enrollment" precision="2" scale="None" type="d">
+			<label>Enrollment - Total</label>
+			<definition>@school__year(total_enrollment)</definition>
+		</var>
+
+		<var name="total_enrollment_unkn_tot" precision="2" scale="Percent" type="d">
+			<label>Enrollment - Unknown Ethnicity (%)</label>
+			<definition>@school__year(total_enrollment_unkn_tot/total_enrollment)</definition>
+		</var>
+
+		<var name="total_enrollment_white_tot" precision="2" scale="Percent" type="d">
+			<label>Enrollment - White (%)</label>
+			<definition>@school__year(total_enrollment_white_tot/total_enrollment)</definition>
+		</var>
+
+		<var name="labor_share_of_instructcost" precision="2" scale="None" type="d">
+			<label>Expenditures - Instructional - Salaries, Wages, &amp; Fringe Benefits (%)</label>
+			<definition>@school__year(labor_share_of_instructcost)</definition>
+		</var>
+
+		<var name="pubserv01_fasb" precision="2" scale="None" type="d">
+			<label>Expenditures - Public Service (FASB) - All</label>
+			<definition>@school__year(pubserv01_fasb)</definition>
+		</var>
+
+		<var name="pubserv01" precision="2" scale="None" type="d">
+			<label>Expenditures - Public Service - All</label>
+			<definition>@school__year(pubserv01)</definition>
+		</var>
+
+		<var name="pubserv02" precision="2" scale="None" type="d">
+			<label>Expenditures - Public Service - Salaries &amp; Wages</label>
+			<definition>@school__year(pubserv02)</definition>
+		</var>
+
+		<var name="research01" precision="2" scale="None" type="d">
+			<label>Expenditures - Research</label>
+			<definition>@school__year(research01)</definition>
+		</var>
+
+		<var name="research01_fasb" precision="2" scale="None" type="d">
+			<label>Expenditures - Research (FASB)</label>
+			<definition>@school__year(research01_fasb)</definition>
+		</var>
+
+		<var name="research02" precision="2" scale="None" type="d">
+			<label>Expenditures - Research - Salaries &amp; Wages</label>
+			<definition>@school__year(research02)</definition>
+		</var>
+
+		<var name="labor_share_of_rescost" precision="2" scale="None" type="d">
+			<label>Expenditures - Research - Salaries, Wages, &amp; Fringe Benefits (%)</label>
+			<definition>@school__year(labor_share_of_rescost)</definition>
+		</var>
+
+		<var name="grants01r" precision="2" scale="None" type="d">
+			<label>Expenditures - Restricted - Scholarships and Fellowships</label>
+			<definition>@school__year(grants01r)</definition>
+		</var>
+
+		<var name="labor_share_of_studservcost" precision="2" scale="None" type="d">
+			<label>Expenditures - Student Services - Salaries, Wages, &amp; Fringe Benefits</label>
+			<definition>@school__year(labor_share_of_studservcost)</definition>
+		</var>
+
+		<var name="grants01u" precision="2" scale="None" type="d">
+			<label>Expenditures - Unrestricted - Scholarships and Fellowships</label>
+			<definition>@school__year(grants01u)</definition>
+		</var>
+
+		<var name="instruction01" precision="2" scale="None" type="d">
+			<label>Expenses - Instructional</label>
+			<definition>@school__year(instruction01)</definition>
+		</var>
+
+		<var name="instruction01_fasb" precision="2" scale="None" type="d">
+			<label>Expenses - Instructional (FASB)</label>
+			<definition>@school__year(instruction01_fasb)</definition>
+		</var>
+
+		<var name="instruction02" precision="2" scale="None" type="d">
+			<label>Expenses - Instructional - Salaries &amp; Wages</label>
+			<definition>@school__year(instruction02)</definition>
+		</var>
+
+		<var name="ftall1" precision="2" scale="None" type="d">
+			<label>Faculty - Full-Time</label>
+			<definition>@school__year(ftall1)</definition>
+		</var>
+
+		<var name="full_time_faculty_share" precision="2" scale="None" type="d">
+			<label>Faculty - Full-Time (%)</label>
+			<definition>@school__year(full_time_faculty_share)</definition>
+		</var>
+
+		<var name="ft_faculty_salary" precision="2" scale="None" type="d">
+			<label>Faculty - Full-Time - Average Salary (Adjusted for 9-Month Contracts)</label>
+			<definition>@school__year(ft_faculty_salary)</definition>
+		</var>
+
+		<var name="salarytotal" precision="2" scale="None" type="d">
+			<label>Faculty - Full-Time - Salary Outlays</label>
+			<definition>@school__year(salarytotal)</definition>
+		</var>
+
+		<var name="faculty_instr_headcount" precision="2" scale="None"
+			type="d">
+			<label>Faculty - Full-Time - Total (Including 9-Month Contracts)</label>
+			<definition>@school__year(faculty_instr_headcount)</definition>
+		</var>
+
+		<var name="total_faculty_all" precision="2" scale="None" type="d">
+			<label>Faculty - Total</label>
+			<definition>@school__year(total_faculty_all)</definition>
+		</var>
+
+		<var name="fed_grant_avg_amount" precision="2" scale="None"
+			type="d">
+			<label>Federal Aid - Average Amount</label>
+			<definition>@school__year(fed_grant_avg_amount)</definition>
+		</var>
+
+		<var name="fed_grant_num" precision="2" scale="None" type="d">
+			<label>Federal Aid - Students Receiving</label>
+			<definition>@school__year(fed_grant_num)</definition>
+		</var>
+
+		<var name="fed_grant_pct" precision="2" scale="None" type="d">
+			<label>Federal Aid - Students Receiving (%)</label>
+			<definition>@school__year(fed_grant_pct)</definition>
+		</var>
+
+		<var name="flagship" precision="2" scale="None" type="c">
+			<label>Flagship</label>
+			<definition>@school(
+	CASE					
+	WHEN flagship = TRUE THEN 'Yes'
+	WHEN flagship = FALSE THEN 'No'
+	END::TEXT
+			)</definition>
+		</var>
+
+		<var name="govt_reliance_a" precision="2" scale="None" type="d">
+			<label>Goverment Reliance - A</label>
+			<definition>@school__year(govt_reliance_a)</definition>
+		</var>
+
+		<var name="govt_reliance_b" precision="2" scale="None" type="d">
+			<label>Government Reliance - B</label>
+			<definition>@school__year(govt_reliance_b)</definition>
+		</var>
+
+		<var name="govt_reliance_c" precision="2" scale="None" type="d">
+			<label>Government Reliance - C</label>
+			<definition>@school__year(govt_reliance_c)</definition>
+		</var>
+
+		<var name="grad_rate_150_p4yr" precision="2" scale="Percent" type="d">
+			<label>Graduation Rate - Four Year</label>
+			<definition>@school__year(grad_rate_150_p4yr)</definition>
+		</var>
+
+		<var name="grad_rate_150_p2yr" precision="2" scale="Percent"
+			type="d">
+			<label>Graduation Rate - Two Year</label>
+			<definition>@school__year(grad_rate_150_p2yr)</definition>
+		</var>
+
+		<var name="groupid" precision="2" scale="None" type="c">
+			<label>Grouped Institutions</label>
+			<definition>@school(groupid)</definition>
+		</var>
+
+		<var name="heca_index" precision="2" scale="None" type="d">
+			<label>HECA</label>
+			<definition>@year(heca_index)</definition>
+		</var>
+
+		<var name="heca_scalar_2010" precision="2" scale="None" type="d">
+			<label>HECA - Deflator</label>
+			<definition>@year(heca_scalar_2010)</definition>
+		</var>
+
+		<var name="hepi_index" precision="2" scale="None" type="d">
+			<label>HEPI</label>
+			<definition>@year(hepi_index)</definition>
+		</var>
+
+		<var name="hepi_scalar_2010" precision="2" scale="None" type="d">
+			<label>HEPI - Deflator</label>
+			<definition>@year(hepi_scalar_2010)</definition>
+		</var>
+
+		<var name="hbcu" precision="2" scale="None" type="c">
+			<label>Historically Black</label>
+			<definition>@school(
+	CASE					
+	WHEN hbcu = '1' THEN 'Yes'
+	WHEN hbcu = '2' THEN 'No'
+	END
+		
+			)</definition>
+		</var>
+
+		<var name="inst_grant_avg_amount" precision="2" scale="None"
+			type="d">
+			<label>Institution Aid - Average Amount</label>
+			<definition>@school__year(inst_grant_avg_amount)</definition>
+		</var>
+
+		<var name="institutional_grant_aid_share" precision="2" scale="None"
+			type="d">
+			<label>Institution Aid - Share of Total Grant Aid</label>
+			<definition>@school__year(institutional_grant_aid_share)</definition>
+		</var>
+
+		<var name="inst_grant_num" precision="2" scale="None" type="d">
+			<label>Institution Aid - Students Receiving</label>
+			<definition>@school__year(inst_grant_num)</definition>
+		</var>
+
+		<var name="inst_grant_pct" precision="2" scale="None" type="d">
+			<label>Institution Aid - Students Receiving (%)</label>
+			<definition>@school__year(inst_grant_pct)</definition>
+		</var>
+
+		<var name="institutional_grant_aid" precision="2" scale="None"
+			type="d">
+			<label>Institution Aid - Total Amount</label>
+			<definition>@school__year(institutional_grant_aid)</definition>
+		</var>
+
+		<var name="investment01" precision="2" scale="None" type="d">
+			<label>Investment Income</label>
+			<definition>@school__year(investment01)</definition>
+		</var>
+
+		<var name="landgrnt" precision="2" scale="None" type="c">
+			<label>Land Grant</label>
+			<definition>@school(
+	CASE					
+	WHEN landgrnt = '1' THEN 'Yes'
+	WHEN landgrnt = '2' THEN 'No'
+	END				
+			)</definition>
+		</var>
+
+		<var name="assets11" precision="2" scale="None" type="d">
+			<label>Net Assets</label>
+			<definition>@school__year(assets11)</definition>
+		</var>
+
+		<var name="grscohort" precision="2" scale="None" type="d">
+			<label>Number of Full-Time, First-Time, Degree-Seeking Undergratuates in Current Year Gruaduation Rate Survey</label>
+			<definition>@school__year(grscohort)</definition>
+		</var>
+
+		<var name="unitid_linchpin" precision="2" scale="None" type="c">
+			<label>Parent Id</label>
+			<definition>@school__year(unitid_linchpin)</definition>
+		</var>
+
+		<var name="ptall1" precision="2" scale="None" type="d">
+			<label>Part Time Employees </label>
+			<definition>@school__year(ptall1)</definition>
+		</var>
+
+		<var name="control" precision="2" scale="None" type="c">
+			<label>Public/Private Leadership</label>
+			<definition>@school(control)</definition>
+		</var>
+
+		<var name="ftretention_rate" precision="2" scale="Percent" type="d">
+			<label>Retention Rate - Full-Time Students</label>
+			<definition>@school__year(ftretention_rate)</definition>
+		</var>
+
+		<var name="ptretention_rate" precision="2" scale="Percent" type="d">
+			<label>Retention Rate - Part-Time Students</label>
+			<definition>@school__year(ptretention_rate)</definition>
+		</var>
+
+		<var name="auxiliary03" precision="2" scale="None" type="d">
+			<label>Revenue - Auxiliary Sources</label>
+			<definition>@school__year(auxiliary03)</definition>
+		</var>
+
+		<var name="local03" precision="2" scale="None" type="d">
+			<label>Revenue - Below State-Level Appropriations</label>
+			<definition>@school__year(local03)</definition>
+		</var>
+
+		<var name="endowment03" precision="2" scale="None" type="d">
+			<label>Revenue - Endowment</label>
+			<definition>@school__year(endowment03)</definition>
+		</var>
+
+		<var name="federal03" precision="2" scale="None" type="d">
+			<label>Revenue - Federal - Appropriations</label>
+			<definition>@school__year(federal03)</definition>
+		</var>
+
+		<var name="federal10" precision="2" scale="None" type="d">
+			<label>Revenue - Federal - Grants, Contracts, and Appropriations</label>
+			<definition>@school__year(federal10)</definition>
+		</var>
+
+		<var name="federal10_net_pell" precision="2" scale="Thousand" type="d">
+			<label>Revenue - Federal - Grants, Contracts, and Appropriations, less Pell Grants</label>
+			<definition>@school__year(federal10_net_pell)</definition>
+		</var>
+
+		<var name="federal07" precision="2" scale="None" type="d">
+			<label>Revenue - Federal - Grants and Contracts</label>
+			<definition>@school__year(federal07)</definition>
+		</var>
+
+		<var name="federal07_net_pell" precision="2" scale="None" type="d">
+			<label>Revenue - Federal - Grants and Contracts, less Pell Grants</label>
+			<definition>@school__year(federal07_net_pell)</definition>
+		</var>
+
+		<var name="tuition03" precision="2" scale="None" type="d">
+			<label>Revenue - Gross - Tuition and Fees</label>
+			<definition>@school__year(tuition03)</definition>
+		</var>
+
+		<var name="local06" precision="2" scale="None" type="d">
+			<label>Revenue - Local Government Agencies, for Training Programs</label>
+			<definition>@school__year(local06)</definition>
+		</var>
+
+		<var name="nettuition01" precision="2" scale="None" type="d">
+			<label>Revenue - Net - Tuition and Fees</label>
+			<definition>@school__year(nettuition01)</definition>
+		</var>
+
+		<var name="net_student_tuition" precision="2" scale="None" type="d">
+			<label>Revenue - Net Tuition Directly from Students</label>
+			<definition>@school__year(net_student_tuition)</definition>
+		</var>
+
+		<var name="affiliate01" precision="2" scale="None" type="d">
+			<label>Revenue - Non-Consolidated Affiliated Entities</label>
+			<definition>@school__year(affiliate01)</definition>
+		</var>
+
+		<var name="private03" precision="2" scale="None" type="d">
+			<label>Revenue - Private Donors</label>
+			<definition>@school__year(private03)</definition>
+		</var>
+
+		<var name="tuition02" precision="2" scale="None" type="d">
+			<label>Revenue - Restricted - Tuition and Fees</label>
+			<definition>@school__year(tuition02)</definition>
+		</var>
+
+		<var name="edactivity03" precision="2" scale="None" type="d">
+			<label>Revenue - Sales of Goods or Services</label>
+			<definition>@school__year(edactivity03)</definition>
+		</var>
+
+		<var name="state03" precision="2" scale="None" type="d">
+			<label>Revenue - State Appropriations</label>
+			<definition>@school__year(state03)</definition>
+		</var>
+
+		<var name="state06" precision="2" scale="None" type="d">
+			<label>Revenue - State - Grants &amp; Contracts</label>
+			<definition>@school__year(state06)</definition>
+		</var>
+
+		<var name="state09" precision="2" scale="None" type="d">
+			<label>Revenue - State - Grants, Contracts, &amp; Appropriations</label>
+			<definition>@school__year(state09)</definition>
+		</var>
+	
+		<var name="state_local_app" precision="2" scale="None" type="d">
+			<label>Revenue - State &amp; Local Appropriations</label>
+			<definition>@school__year(state_local_app)</definition>
+		</var>
+
+		<var name="state_local_grant_contract" precision="2" scale="None" type="d">
+			<label>Revenue - State &amp; Local Grants and Contracts</label>
+			<definition>@school__year(state_local_grant_contract)</definition>
+		</var>
+
+		<var name="tuition01" precision="2" scale="None" type="d">
+			<label>Revenue - Unrestricted - Tuition and Fees</label>
+			<definition>@school__year(tuition01)</definition>
+		</var>			
+
+		<var name="satmt25" precision="2" scale="None" type="d">
+			<label>SAT - Math - 25th Percentile</label>
+			<definition>@school__year(satmt25)</definition>
+		</var>
+
+		<var name="satmt75" precision="2" scale="None" type="d">
+			<label>SAT - Math - 7th Percentile</label>
+			<definition>@school__year(satmt75)</definition>
+		</var>
+
+		<var name="satpct" precision="2" scale="None" type="d">
+			<label>SAT - Students Who Submitted Scores (%)</label>
+			<definition>@school__year(satpct)</definition>
+		</var>
+
+		<var name="satvr25" precision="2" scale="None" type="d">
+			<label>SAT - Verbal - 25th Percentile</label>
+			<definition>@school__year(satvr25)</definition>
+		</var>
+
+		<var name="satvr75" precision="2" scale="None" type="d">
+			<label>SAT - Verbal - 7th Percentile</label>
+			<definition>@school__year(satvr75)</definition>
+		</var>
+
+		<var name="appliedaid01" precision="2" scale="None" type="d">
+			<label>Scholarship Funds Applied to Tuition and Fees</label>
+			<definition>@school__year(appliedaid01)</definition>
+		</var>
+
+		<var name="state" precision="2" scale="None" type="c">
+			<label>State</label>
+			<definition>
+	@school(
+	@school_address{school}(
+	state
+	)
+	)			
+			</definition>
+		</var>
+
+		<var name="state_grant_avg_amount" precision="2" scale="None"
+			type="d">
+			<label>State Aid - Average Amount</label>
+			<definition>@school__year(state_grant_avg_amount)</definition>
+		</var>
+
+		<var name="state_grant_num" precision="2" scale="None" type="d">
+			<label>State Aid - Students Receiving</label>
+			<definition>@school__year(state_grant_num)</definition>
+		</var>
+
+		<var name="state_grant_pct" precision="2" scale="None" type="d">
+			<label>State Aid - Students Receiving (%)</label>
+			<definition>@school__year(state_grant_pct)</definition>
+		</var>
+
+		<var name="any_aid_num" precision="2" scale="None" type="d">
+			<label>Student Aid - Any</label>
+			<definition>@school__year(any_aid_num)</definition>
+		</var>
+
+		<var name="any_aid_pct" precision="2" scale="None" type="d">
+			<label>Student Aid - Any (%)</label>
+			<definition>@school__year(any_aid_pct)</definition>
+		</var>
+
+		<var name="loan_avg_amount" precision="2" scale="None" type="d">
+			<label>Student Loan - Average Amount</label>
+			<definition>@school__year(loan_avg_amount)</definition>
+		</var>
+
+		<var name="default_rate_three_year" precision="2" scale="None"
+			type="d">
+			<label>Student Loan - Default Rate - Three Year</label>
+			<definition>@school__year(default_rate_three_year)</definition>
+		</var>
+
+		<var name="default_rate_two_year" precision="2" scale="None"
+			type="d">
+			<label>Student Loan - Default Rate - Two Year</label>
+			<definition>@school__year(default_rate_two_year)</definition>
+		</var>
+
+		<var name="loan_num" precision="2" scale="None" type="d">
+			<label>Student Loan - Students Receiving</label>
+			<definition>@school__year(loan_num)</definition>
+		</var>
+
+		<var name="loan_pct" precision="2" scale="None" type="d">
+			<label>Student Loan - Students Receiving (%)</label>
+			<definition>@school__year(loan_pct)</definition>
+		</var>
+
+		<var name="is_top_50" precision="2" scale="None" type="c">
+			<label>Top 50 Institution</label>
+			<definition>@school(
+	CASE						
+	WHEN is_top_50 = TRUE THEN 'Yes'
+	WHEN is_top_50 = FALSE THEN 'No'
+	END::TEXT
+			)</definition>
+		</var>
+
+		<var name="assets06" precision="2" scale="None" type="d">
+			<label>Total Assets</label>
+			<definition>@school__year(assets06)</definition>
+		</var>
+
+		<var name="ugentering" precision="2" scale="None" type="d">
+			<label>Total Entering Undergraduate Students</label>
+			<definition>@school__year(ugentering)</definition>
+		</var>
+
+		<var name="grant05" precision="2" scale="None" type="d">
+			<label>Total Grant Amount Received - Institution (funded)</label>
+			<definition>@school__year(grant05)</definition>
+		</var>
+
+		<var name="grant06" precision="2" scale="None" type="d">
+			<label>Total Grant Amount Received - Institution (unfunded)</label>
+			<definition>@school__year(grant06)</definition>
+		</var>
+
+		<var name="grant04" precision="2" scale="None" type="d">
+			<label>Total Grant Amount Received - Local</label>
+			<definition>@school__year(grant04)</definition>
+		</var>
+
+		<var name="grant02" precision="2" scale="None" type="d">
+			<label>Total Grant Amount Received - Other Federal Grants</label>
+			<definition>@school__year(grant02)</definition>
+		</var>
+
+		<var name="grant01" precision="2" scale="None" type="d">
+			<label>Total Grant Amount Received - Pell</label>
+			<definition>@school__year(grant01)</definition>
+		</var>
+
+		<var name="grant03" precision="2" scale="None" type="d">
+			<label>Total Grant Amount Received - State</label>
+			<definition>@school__year(grant03)</definition>
+		</var>
+
+		<var name="liabilities07" precision="2" scale="None" type="d">
+			<label>Total Liabilities</label>
+			<definition>@school__year(liabilities07)</definition>
+		</var>
+
+		<var name="grant07" precision="2" scale="None" type="d">
+			<label>Total Student Aid (sum of all grants)</label>
+			<definition>@school__year(grant07)</definition>
+		</var>
+
+		<var name="tuitionfee05_tf" precision="2" scale="None" type="d">
+			<label>Tuition &amp; Fees - Graduate - In District Average</label>
+			<definition>@school__year(tuitionfee05_tf)</definition>
+		</var>
+
+		<var name="tuitionfee01_tf" precision="2" scale="None" type="d">
+			<label>Tuition &amp; Fees - Undergraduate - In District Average</label>
+			<definition>@school__year(tuitionfee01_tf)</definition>
+		</var>
+
+		<var name="tuitionfee02_tf" precision="2" scale="None" type="d">
+			<label>Tuition &amp; Fees - Undergraduate - In State Average</label>
+			<definition>@school__year(tuitionfee02_tf)</definition>
+		</var>
+
+		<var name="tuitionfee03_tf" precision="2" scale="None" type="d">
+			<label>Tuition &amp; Fees - Undergraduate - Out of State Average</label>
+			<definition>@school__year(tuitionfee03_tf)</definition>
+		</var>
+
+		<var name="tuition05_tf" precision="2" scale="None" type="d">
+			<label>Tuition - Graduate - In District Average</label>
+			<definition>@school__year(tuition05_tf)</definition>
+		</var>
+
+		<var name="tuition06_tf" precision="2" scale="None" type="d">
+			<label>Tuition - Graduate - In State Average</label>
+			<definition>@school__year(tuition06_tf)</definition>
+		</var>
+
+		<var name="tuition01_tf" precision="2" scale="None" type="d">
+			<label>Tuition - Undergraduate - In District Average</label>
+			<definition>@school__year(tuition01_tf)</definition>
+		</var>
+
+		<var name="tuition02_tf" precision="2" scale="None" type="d">
+			<label>Tuition - Undergraduate - In State Average</label>
+			<definition>@school__year(tuition02_tf)</definition>
+		</var>
+
+		<var name="tuition03_tf" precision="2" scale="None" type="d">
+			<label>Tuition - Undergraduate - Out of State Average</label>
+			<definition>@school__year(tuition03_tf)</definition>
+		</var>
+
+		<var name="tuition_reliance_a1" precision="2" scale="None" type="d">
+			<label>Tuition Reliance - A1</label>
+			<definition>@school__year(tuition_reliance_a1)</definition>
+		</var>
+
+		<var name="tuition_reliance_a2" precision="2" scale="None" type="d">
+			<label>Tuition Reliance - A2</label>
+			<definition>@school__year(tuition_reliance_a2)</definition>
+		</var>
+
+		<var name="tuition_reliance_b1" precision="2" scale="None" type="d">
+			<label>Tuition Reliance - B1</label>
+			<definition>@school__year(tuition_reliance_b1)</definition>
+		</var>
+
+		<var name="tuition_reliance_b2" precision="2" scale="None" type="d">
+			<label>Tuition Reliance - B2</label>
+			<definition>@school__year(tuition_reliance_b2)</definition>
+		</var>
+
+		<var name="tuition_reliance_c1" precision="2" scale="None" type="d">
+			<label>Tuition Reliance - C1</label>
+			<definition>@school__year(tuition_reliance_c1)</definition>
+		</var>
+
+		<var name="tuition_reliance_c2" precision="2" scale="None" type="d">
+			<label>Tuition Reliance C2</label>
+			<definition>@school__year(tuition_reliance_c2)</definition>
+		</var>
+
+		<var name="tuition_discount" precision="2" scale="None" type="d">
+			<label>Tution Discount</label>
+			<definition>@school__year(tuition_discount)</definition>
+		</var>
+
+		<var name="is_virginia" precision="2" scale="None" type="c">
+			<label>Virginia Institution</label>
+			<definition>@school(
+CASE						
+WHEN is_virginia = TRUE THEN 'Yes'
+WHEN is_virginia = FALSE THEN 'No'
+END::TEXT
+			)</definition>
+		</var>
+
+		<var name="school" precision="2" scale="None" type="c">
+			<label>school</label>
+			<definition>@school__year(school)</definition>
+		</var>
+
+		<var name="total_executive_admin_managerial" precision="2"
+			scale="None" type="d">
+			<label>total_executive_admin_managerial</label>
+			<definition>@school__year(total_executive_admin_managerial)</definition>
+		</var>
+	</variables>
+</root>

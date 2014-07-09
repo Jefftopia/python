@@ -1,0 +1,149 @@
+ACT - Composite - 25th Percentile,actcm25
+ACT - Composite - 75th Percentile,actcm75
+ACT - English - 25th Percentile,acten25
+ACT - English - 75th Percentile,acten75
+ACT - Math - 25th Percentile,actmt25
+ACT - Math - 7th Percentile,actmt75
+ACT - Students Who Submitted Scores (%),actpct
+Belongs To Parent Institution And Does Not Report Financial Data Independently,isgrouped
+CPI,cpi_index
+CPI - Deflator,cpi_conversion_2010
+Cost - Per Completion of Education,eandr_completion
+Cost - Per Degree,eandr_degree
+Credit Hour Activity for Undergraduate Programs,credhoursug
+Current Year Graduation Rate Survey Cohort As Percentage of Incoming Class,grscohortpct
+Degrees Awarded - Bachelors,bachelordegrees
+Degrees Awarded - Doctorates,doctordegrees
+Degrees Awarded - Masters,masterdegrees
+Degrees Awarded - Per 100 FTE Students,totaldegrees_100fte
+Degrees Awarded - Professional ,firstprofdegrees
+Education and General Expenditures - Fringe Benefits for Employees,eandg03
+Education and General Expenditures - Salaries and Wages,eandg02
+Enrollment - Asian (%),total_enrollment_asian_tot
+Enrollment - Black (%),total_enrollment_black_tot
+Enrollment - FTE,fte_count
+Enrollment - First Year,enrlt
+Enrollment - Hispanic (%),total_enrollment_hisp_tot
+Enrollment - Multi-Ethnic (%),total_enrollment_multi_tot
+Enrollment - Native American (%),total_enrollment_amin_tot
+Enrollment - Part-Time Students,pt_ugentering
+Enrollment - Total,total_enrollment
+Enrollment - Unknown Ethnicity (%),total_enrollment_unkn_tot
+Enrollment - White (%),total_enrollment_white_tot
+"Expenditures - Instructional - Salaries, Wages, & Fringe Benefits (%)",labor_share_of_instructcost
+Expenditures - Public Service (FASB) - All,pubserv01_fasb
+Expenditures - Public Service - All,pubserv01
+Expenditures - Public Service - Salaries & Wages,pubserv02
+Expenditures - Research,research01
+Expenditures - Research (FASB),research01_fasb
+Expenditures - Research - Salaries & Wages,research02
+"Expenditures - Research - Salaries, Wages, & Fringe Benefits (%)",labor_share_of_rescost
+Expenditures - Restricted - Scholarships and Fellowships,grants01r
+"Expenditures - Student Services - Salaries, Wages, & Fringe Benefits",labor_share_of_studservcost
+Expenditures - Unrestricted - Scholarships and Fellowships,grants01u
+Expenses - Instructional,instruction01
+Expenses - Instructional (FASB),instruction01_fasb
+Expenses - Instructional - Salaries & Wages,instruction02
+Faculty - Full-Time,ftall1
+Faculty - Full-Time (%),full_time_faculty_share
+Faculty - Full-Time - Average Salary (Adjusted for 9-Month Contracts),ft_faculty_salary
+Faculty - Full-Time - Salary Outlays,salarytotal
+Faculty - Full-Time - Total (Including 9-Month Contracts),faculty_instr_headcount
+Faculty - Total,total_faculty_all
+Federal Aid - Average Amount,fed_grant_avg_amount
+Federal Aid - Students Receiving,fed_grant_num
+Federal Aid - Students Receiving (%),fed_grant_pct
+Flagship,flagship
+Goverment Reliance - A,govt_reliance_a
+Government Reliance - B,govt_reliance_b
+Government Reliance - C,govt_reliance_c
+Graduation Rate - Four Year,grad_rate_150_p4yr
+Graduation Rate - Two Year,grad_rate_150_p2yr
+Grouped Institutions,groupid
+HECA,heca_index
+HECA - Deflator,heca_scalar_2010
+HEPI,hepi_index
+HEPI - Deflator,hepi_scalar_2010
+Historically Black,hbcu
+Institution Aid - Average Amount,inst_grant_avg_amount
+Institution Aid - Share of Total Grant Aid,institutional_grant_aid_share
+Institution Aid - Students Receiving,inst_grant_num
+Institution Aid - Students Receiving (%),inst_grant_pct
+Institution Aid - Total Amount,institutional_grant_aid
+Investment Income,investment01
+Land Grant,landgrnt
+Net Assets,assets11
+"Number of Full-Time, First-Time, Degree-Seeking Undergratuates in Current Year Gruaduation Rate Survey",grscohort
+Parent Id,unitid_linchpin
+Part Time Employees ,ptall1
+Public/Private Leadership,control
+Retention Rate - Full-Time Students,ftretention_rate
+Retention Rate - Part-Time Students,ptretention_rate
+Revenue - Auxiliary Sources,auxiliary03
+Revenue - Below State-Level Appropriations,local03
+Revenue - Endowment,endowment03
+Revenue - Federal - Appropriations,federal03
+"Revenue - Federal - Grants, Contracts, and Appropriations",federal10
+"Revenue - Federal - Grants, Contracts, and Appropriations, less Pell Grants",federal10_net_pell
+Revenue - Federal - Grants and Contracts,federal07
+"Revenue - Federal - Grants and Contracts, less Pell Grants",federal07_net_pell
+Revenue - Gross - Tuition and Fees,tuition03
+"Revenue - Local Government Agencies, for Training Programs",local06
+Revenue - Net - Tuition and Fees,nettuition01
+Revenue - Net Tuition Directly from Students,net_student_tuition
+Revenue - Non-Consolidated Affiliated Entities,affiliate01
+Revenue - Private Donors,private03
+Revenue - Restricted - Tuition and Fees,tuition02
+Revenue - Sales of Goods or Services,edactivity03
+Revenue - State Appropriations,state03
+Revenue - State - Grants & Contracts,state06
+"Revenue - State - Grants, Contracts, & Appropriations",state09
+Revenue - State & Local Appropriations,state_local_app
+Revenue - State & Local Grants and Contracts,state_local_grant_contract
+Revenue - Unrestricted - Tuition and Fees,tuition01
+SAT - Math - 25th Percentile,satmt25
+SAT - Math - 7th Percentile,satmt75
+SAT - Students Who Submitted Scores (%),satpct
+SAT - Verbal - 25th Percentile,satvr25
+SAT - Verbal - 7th Percentile,satvr75
+Scholarship Funds Applied to Tuition and Fees,appliedaid01
+State,state
+State Aid - Average Amount,state_grant_avg_amount
+State Aid - Students Receiving,state_grant_num
+State Aid - Students Receiving (%),state_grant_pct
+Student Aid - Any,any_aid_num
+Student Aid - Any (%),any_aid_pct
+Student Loan - Average Amount,loan_avg_amount
+Student Loan - Default Rate - Three Year,default_rate_three_year
+Student Loan - Default Rate - Two Year,default_rate_two_year
+Student Loan - Students Receiving,loan_num
+Student Loan - Students Receiving (%),loan_pct
+Top 50 Institution,is_top_50
+Total Assets,assets06
+Total Entering Undergraduate Students,ugentering
+Total Grant Amount Received - Institution (funded),grant05
+Total Grant Amount Received - Institution (unfunded),grant06
+Total Grant Amount Received - Local,grant04
+Total Grant Amount Received - Other Federal Grants,grant02
+Total Grant Amount Received - Pell,grant01
+Total Grant Amount Received - State,grant03
+Total Liabilities,liabilities07
+Total Student Aid (sum of all grants),grant07
+Tuition & Fees - Graduate - In District Average,tuitionfee05_tf
+Tuition & Fees - Undergraduate - In District Average,tuitionfee01_tf
+Tuition & Fees - Undergraduate - In State Average,tuitionfee02_tf
+Tuition & Fees - Undergraduate - Out of State Average,tuitionfee03_tf
+Tuition - Graduate - In District Average,tuition05_tf
+Tuition - Graduate - In State Average,tuition06_tf
+Tuition - Undergraduate - In District Average,tuition01_tf
+Tuition - Undergraduate - In State Average,tuition02_tf
+Tuition - Undergraduate - Out of State Average,tuition03_tf
+Tuition Reliance - A1,tuition_reliance_a1
+Tuition Reliance - A2,tuition_reliance_a2
+Tuition Reliance - B1,tuition_reliance_b1
+Tuition Reliance - B2,tuition_reliance_b2
+Tuition Reliance - C1,tuition_reliance_c1
+Tuition Reliance C2,tuition_reliance_c2
+Tution Discount,tuition_discount
+Virginia Institution,is_virginia
+school,school
